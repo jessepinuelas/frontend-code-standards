@@ -12,6 +12,9 @@ publish
 _notes
 dwsync.xml
 
+# ignore out dir for generated html files
+out
+
 # OS or Editor folders
 .DS_Store
 Thumbs.db
