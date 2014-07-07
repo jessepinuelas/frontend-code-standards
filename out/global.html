@@ -1,1011 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>JSDoc: Global</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
-</head>
-
-<body>
-
-<div id="main">
-    <h1 class="page-title">Global</h1>
-    
-
-
-
-<section>
-
-<header>
-    <h2>
-    
-    </h2>
-    
-</header>
-
-<article>
-    <div class="container-overview">
-    
-
-    
-        
-
-        
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-        
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-     
-
-    
-
-    
-        <h3 class="subsection-title">Members</h3>
-
-        <dl>
-            
-<dt>
-    <h4 class="name" id="CommentingCode"><span class="type-signature"></span>CommentingCode<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>Be generous with comments. It is useful to leave information that will be read at a later time by people (possibly yourself) who will need to understand what you have done. The comments should be well-written and clear, just like the code they are annotating. An occasional nugget of humor is appreciated, but cynical and resentful comments are not. </p><p>You do not need to write comments that describe what is easy to see in the code. Since your code should be clear, concise and well-written, additional comments describing what the code is doing are not necessary. Instead, leave comments to provide additional information and focus on the WHY. For example, WHY is the code doing what it is doing? WHY was a certain choice made? Or WHERE can additional information be found? </p><p>If you use a workaround or hack, denote that with a “ //HACK: ” and then explain why that code was hacked or a workaround was used.</p><p>If something is not complete, or has to be changed down the road, denote that with “ //TODO: “ and then explain what is still needed.</p><p>Make comments meaningful. Focus on what is not immediately obvious.</p><p>It is important that comments be kept up-to-date. Erroneous comments can make programs even harder to read and understand.</p><p>Use block comments and follow <a href="http://usejsdoc.org/" target="_blank">JSDoc 3 Tag Dictionary</a></p>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="CommentingCode.js.html">CommentingCode.js</a>, <a href="CommentingCode.js.html#line36">line 36</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Example</h5>
-        
-    <pre class="prettyprint"><code>// Some JSDoc 3 Tags.// @author &lt;name> [&lt;emailAddress>]// @copyright &lt;some copyright text>// @desc &lt;some description>// @param {string}// @param {array}// @param {object}// @class &lt;SomeClassName>// @classdesc &lt;some description></code></pre>
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="DirectoryStructure"><span class="type-signature"></span>DirectoryStructure<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>General Frontend Directory Structure. Varies per project but for the most part as far as frontend dev goes the following example and template files contain a consistent set up found in most projects.</p><p><a href="app.zip" target="_blank">Download basic directory structure</p>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DirectoryStructure.js.html">DirectoryStructure.js</a>, <a href="DirectoryStructure.js.html#line44">line 44</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Example</h5>
-        
-    <pre class="prettyprint"><code>// General Frontend Directory Structure> app  > css    app.css    medium.css    small.css    print.scss    ie.css  > fonts  > images  > js    app.js    > lib    > vendor  > sass    app.scss    medium.scss    small.scss    print.scss    ie.scss    > partials      _base.scss      _fonts.scss      _mixins.scss      _variables.scss      > modules [for example forms, navigation, modals etc...]</code></pre>
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="NamingConventions"><span class="type-signature"></span>NamingConventions<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>Please follow the conventions defined below when naming classes, variables, fields and methods in your code:</p><p>For naming variables and fields, use camel-case notation, such as “variableNamesLikeThis”.</p><p>For naming classes and enums, use Pascal-Case notation, such as “ClassNamesLikeThis” and “EnumNamesLikeThis”.</p><p>For constants, use all-caps separated by underscores, such as “CONSTANT_VALUES_LIKE_THIS”.</p><p>For namespaces, use camel-case notation, such as “foo.namespaceNamesLikeThis.bar”.</p><p>In general, use functionNamesLikeThis, variableNamesLikeThis, ClassNamesLikeThis, EnumNamesLikeThis, methodNamesLikeThis, CONSTANT_VALUES_LIKE_THIS, foo.namespaceNamesLikeThis.bar, and filenameslikethis.js.</p><p>Names should be formed from the 26 upper and lower case letters (A .. Z, a .. z), the 10 digits (0 .. 9), and _ (underscore). Avoid use of international characters because they may not read well or be understood everywhere.</p><p>Most variables and functions should start with a lower case letter.</p><hr></hr>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="NamingConventions.js.html">NamingConventions.js</a>, <a href="NamingConventions.js.html#line17">line 17</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="ObjectCachingAndChaining"><span class="type-signature"></span>ObjectCachingAndChaining<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        Object Caching and Chaining:<p>For cross browser compatibility we often use jQuery for consistency across the several user agents we support. Using techniques such as caching selectors and chaining statements will be the best way to handle jQuery selectors for optimum performance. For test case that demonstrates chaining, separate calls and cache <a href="http://jsperf.com/jquery-chaining" target="_blank">Click Here For Test Case</a></p>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="ObjectCachingAndChaining.js.html">ObjectCachingAndChaining.js</a>, <a href="ObjectCachingAndChaining.js.html#line17">line 17</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Example</h5>
-        
-    <pre class="prettyprint"><code>// Cached jQuery Object and Chaining.var $reservationTab = $('.reservation-tab');$reservationTab.addClass('.expanded').removeClass('expanded');</code></pre>
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="SassCompassSetUp"><span class="type-signature"></span>SassCompassSetUp<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>In most cases each team will be provided with a repository that has all the fundamental directories, files and project dependencies already set up. Use this set up as an example in the event that your workstation does not already have Ruby, Sass, Compass and or Foundation Framework installed via gems. Going through this example will install Ruby, Sass, Compass and Foundation and will demonstrate how the HTML file, Scss files are wired uo.</p>
-
-<p>Step 1: Download Project Set Up: <a href="app.zip" target="_blank">DOWNLOAD BASIC DIRECTORY STRUCTURE</a></p>
-<p>Step 2: Un-archive the zipped directory app somewhere on your local hard disk and follow the examples below</p>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="SassCompassSetUp.js.html">SassCompassSetUp.js</a>, <a href="SassCompassSetUp.js.html#line79">line 79</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Example</h5>
-        
-    <pre class="prettyprint"><code>// Step 3:
-// By default all MAC's come installed with Ruby 1.8.7
-// if your running a MAC skip to step 4
-// if your running windows skip to installing Ruby on Windows
-
-// Step 4: Update system Gems
-// (Note for windows don't use sudo)
-sudo gem update --system
-
-// Step 5: installing Compass
-// (Note for windows don't use sudo)
-sudo gem install compass
-
-// Step 6: installing Sass
-// (Note for windows don't use sudo)
-sudo gem install sass
-
-// Step 7: Install any dependencies, in this case we will be installing
-// a responsive framework Foundation
-// (Note for windows don't use sudo)
-sudo gem install zurb-foundation
-
-
-// Step 8: Navigate to the app project we downloaded in step 1 and open the index.html in your web browser
-app > index.html
-
-// Step 9: Watching and compiling your sass files
-// cd into your app project with terminal/command prompt
-pinuelasj$ cd /YOUR_DIRECTORY/app
-
-// Step 9: Running Compass watch
-// in your terminal/command prompt enter the following command
-compass watch
-
-// you should see the following output in your terminal/command prompt
->>> Change detected at 14:05:35 to: app.scss
-create css/app.css
-create css/ie.css
-create css/medium.css
-create css/print.css
-create css/small.css
-
-Step 10: Refresh your browser window
-// You should now see a top bar component and a headline
-// This example includes Sass, Compass, Foundation and the HTML 5 Boilerplate
-
-
-// Please note when adding Foundation components to please include the appropriate scripts
-// In this example we have included top bar, orbit, drop down and interchange
-js/foundation/foundation.js
-js/foundation/foundation.topbar.js
-js/foundation/foundation.orbit.js
-js/foundation/foundation.dropdown.js
-js/foundation/foundation.interchange.js
-// For other foundation components please refer to their documentation at http://foundation.zurb.com/docs/
-
-
-
-
-// In this example we are using the simplest set up possible to avoid any confusion
-
-
-
-
-// Installing Ruby on Windows:
-Go to http://rubyinstaller.org/ and click the download button
-Follow the installations steps. Once complete continue to step 5</code></pre>
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="SemanticMarkUp"><span class="type-signature"></span>SemanticMarkUp<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>With the increased emphasis on semantics and structure in HTML 5 it is important to consider the following when marking up your web and or web application pages:</p>
-
-<ul>
-    <li>Metadata: Content that sets up presentation or behavior of the content</li>
-    <li>Embedding: Any content that imports or resources into the document. Those elements are as follows: audio, canvas, embed, iframe, img, math, object, svg, and video</li>
-    <li>Interactive: Any content specifically intended for interaction. Those elements are as follows: a, audio, button, details, embed, iframe, img, input, keygen, label, menu, object, select,
-textarea and video</li>
-    <li>Heading: Defines the header of a section which can either be explicitly marked up with sectioning elements or implied by the heading content itself. Those elements are as followed: h1-h6 and hgroup.</li>
-    <li>Phrasing: The text of the document, as well as elements used to markup the text within the paragraph level structures. Those elements are as followed: a, abbr, audio, b, bdo, br, button, canvas,
- cite, code, command, datalist, del, dfn, em, embed, i, iframe, img, input, ins, kbd, keygen, label, link, map, mark, math, meta, meter, noscript, object, output, progress, q, ruby, amp, script, select, small,, span, strong, sub, sup, svg, textarea, time, var, video and wbr.</li>
-    <li>Flow: Majority of elements that would be included in the normal flow of a document. Those elements are as followed: a, abbr, address, article, aside, audio, b, blockquote, bdo, br, button, canvas, cite, code, command, datalist, details, div, dl, del, dfn, em, embed, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr,  i, iframe, img, input, ins, kbd, keygen, label, link, map, mark, math, meta, meter, noscript, object, output, p, pre, progress, q, ruby, amp, section, script, select, small,, span, strong, sub, sup, svg, table, textarea, time, var, video and wbr.</li>
-    <li>Sectioning: Content that defines the scope of headings and footers. Those elements are as followed: article, aside, nav and section</li>
-    <li>HTML 5 is concerned with the structure of the document not the presentation. The display of elements is left entirely to the user agent and the CSS employed.</li>
-    <li>What’s the role of div tags? Previously div tags where widely used to mark up semantics into common to a group of consecutive elements. With all the new tags for structuring content in HTML 5, div tags should be used when the HTML 5 tags are not appropriate. Div tags are still the best choice for adding structure. Always make sure semantic tags are appropriate.</li>
-    <li>Only use section and article tags when sectioning content is appropriate. Every time you use a section or article tag you create a new title element in your outline. If the section you are creating doesn't warrant this level of specificity consider using a div.</li>
-    <li>Only use the aside tag for related content</li>
-    <li>Headers and footers are for grouping heading or footer content</li>
-    <li>Nav tags should not be used for every navigation grouping</li>
-    <li>Divs can used to group related content</li>
-    <li>Outlining</li>
-</ul>
-
-
-
-
-<hr></hr>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="SemanticMarkUp.js.html">SemanticMarkUp.js</a>, <a href="SemanticMarkUp.js.html#line30">line 30</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="StyleSheetAuthoringCommenting"><span class="type-signature"></span>StyleSheetAuthoringCommenting<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>Be generous with comments. It is useful to leave information that will be read at a later time by people (possibly yourself) who will need to understand what you have done. The comments should be well-written and clear, just like the code they are annotating. An occasional nugget of humor might be appreciated. Frustrations and resentments will not.</p><p>Sass supports standard multiline CSS comments, as well as single-line comments. The multiline comments are preserved in the CSS output where possible, while the single-line comments are removed.</p><p>Make comments meaningful. Focus on what is not immediately visible.</p>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="StyleSheetAuthoringCommentingCode.js.html">StyleSheetAuthoringCommentingCode.js</a>, <a href="StyleSheetAuthoringCommentingCode.js.html#line21">line 21</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Example</h5>
-        
-    <pre class="prettyprint"><code>// These comments are only one line long each.// They won't appear in the CSS output,// since they use the single-line comment syntax.a { color: green; }.// Use single comments that you want to keep in source files but do not want to appear in production stylesheets// For all other comments use multiline</code></pre>
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="StyleSheetAuthoringKeepItSassy"><span class="type-signature"></span>StyleSheetAuthoringKeepItSassy<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>Stylesheet authoring at a large scale can become easily difficult to manage, the slight variations of properties can easily get a bit out of hand. Using Sass affords our teams several features to combats CSS's shortcomings. Such as</p><ul>    <li>Extends</li>    <li>Functions</li>    <li>Mixins</li>    <li>Loops</li>    <li>List</li>    <li>Nesting</li>    <li>Variables</li>    <li>Importing</li>    <li>Math</li>    <li>Comparisons</li>    <li>Interpulation [Shimming]</li>    <li>SassScript</li></ul><p>These are just a few features that make authoring stylesheets easier to maintain and a bit more fun. There are a few things to keep in mind when getting Sassy.</p><ul>    <li>As of this documentation please use the Sassy CSS file extension (.scss)</li>    <li>Use the Sassy CSS(.scss) syntax</li>    <li>Nest Sparingly, if you find yourself nesting too deep consider refactoring</li>    <li>Importing happens on compile rather client side, this provides a way for us to abstract modules into partials</li>    <li>Sprite mindfully, spriting is perfect for simple animations, UI assets etc...</li>    <li>Sprites beyond 8192 pixels wide or tall will not render on mobile devices and are performance issues. (Believe it or not we have third parties deliver us sprites larger than that)</li>    <li>Keep it DRY</li>    <li>Extend</li>    <li>Include mix-ins</li>    <li>Utilize $variables for easy site wide updates</li>    <li>Use Sass Placeholders for reusable styles that don't warrant a mix-in</li>    <li>Keep it Sassy</li>    <li>Compress and minify production stylesheets</li></ul><p>Sass (Syntactially Awesome StyleSheets) - <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html" target="_blank">View Sass Documentation Here</a></p><p>Compass Authoring Framework <a href="http://compass-style.org/reference/compass/" target="_blank">View Compass documentation Here</a></p><hr></hr>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="StyleSheetAuthoringKeepItSassy.js.html">StyleSheetAuthoringKeepItSassy.js</a>, <a href="StyleSheetAuthoringKeepItSassy.js.html#line41">line 41</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="StyleSheetAuthoringNamingConventions"><span class="type-signature"></span>StyleSheetAuthoringNamingConventions<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>In general, please use fully-structural naming conventions over presentational naming conventions. Below are some additional guidelines to assist you while developing web applications and sites.</p><ul>    <li>Use what's best for the project at hand.</li>    <li>When assigning a class or id, ask yourself “What is this element for?</li>    <li>What role does this piece of the document play</li>    <li>Consider the document structure</li>    <li>Avoid using names that rely on locational or visual aspects of the particular element</li>    <li>Use names that are intuitive to you</li>    <li>Think Modular</li>    <li>Think Semantically</li>    <li>Names should be formed from the 26 upper and lower case letters (A .. Z, a .. z), the 10 digits (0 .. 9), and - (hyphen). Avoid use of international characters because they may not read well or be understood everywhere.</li>    <li>Most variables, mix-ins and functions should start with a lower case letter.</li>    <li>All CSS selectors (classes or IDs) are lowercase, multiple words are separated with a hyphen, no underscore nor camel-case.</li>    <li>All CSS definitions should take place in a CSS file or in a CSS part at the top of the page, inline styles are highly discouraged.</li>    <li>It is encouraged to use generic classes for common styling issues instead of "id".</li>    <li>Avoid conflicts in naming scheme</li></ul>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="StyleSheetAuthoringNamingConventions.js.html">StyleSheetAuthoringNamingConventions.js</a>, <a href="StyleSheetAuthoringNamingConventions.js.html#line38">line 38</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Examples</h5>
-        
-    <pre class="prettyprint"><code>// All CSS selectors (classes or IDs) are lowercase, multiple words// are separated with a hyphen, no underscore nor camel-case.id="main-content"</code></pre>
-
-    <pre class="prettyprint"><code>// It is encouraged to use generic classes for// common styling issues instead of "id".class="form-module" id"subscribe-form"</code></pre>
-
-    
-</dd>
-
-        
-            
-<dt>
-    <h4 class="name" id="Variables"><span class="type-signature"></span>Variables<span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-    
-    <div class="description">
-        <p>The most important thing you can do is to choose an identifier name that is both meaningful and correct. For instance, if your program deals with customer accounts then your naming choices should reflect that (e.g., customerName, accountDetails). </p><p>When you fail to specify var, the variable gets placed in the global context, potentially clobbering existing values. Also, if there's no declaration, it's hard to tell in what scope a variable lives (e.g., it could be in the Document or Window just as easily as in the local scope). So always declare with var. </p><p>Use of global variables should be minimized.</p><p>Use camelCase when defining variable names</p><p>Use all caps followed by underscores when defining constant variable names</p><p>Primitive types (number, string, boolean) are constant values.</p><p>Omit var in long lists of variables</p><p>Cache your jQuery objects: If any variable and or object you create is utilizing jQuery to create those objects make sure you use the $ sign in your variable naming convention</p>
-    </div>
-    
-
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Variables.js.html">Variables.js</a>, <a href="Variables.js.html#line59">line 59</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-        <h5>Examples</h5>
-        
-    <pre class="prettyprint"><code>// Use camelCase for naming varibale names.var customerName = "Steve Wozniak"</code></pre>
-
-    <pre class="prettyprint"><code>// Use NAMES_LIKE_THIS for constant values.var TIMEOUT_IN_MILLISECONDS = 60</code></pre>
-
-    <pre class="prettyprint"><code>// Omit var in long lists of variablesvar someItem     = 'some string',    anotherItem  = 'another string',    oneMoreItem  = 'one more string';</code></pre>
-
-    <pre class="prettyprint"><code>// Cache jQuery Objectsvar $nextBtn = $('.gallery-ui.next');</code></pre>
-
-    <pre class="prettyprint"><code>// Reduce Globalsvar name        = 'Steve';var lastName    = 'Wozniak';function saySomething() {...}var MethodNameSpace = { name : 'Steve', lastName : 'Wozniak', saySomething : function() {     // code here }}</code></pre>
-
-    
-</dd>
-
-        </dl>
-    
-
-    
-        <h3 class="subsection-title">Methods</h3>
-
-        <dl>
-            
-<dt>
-    <h4 class="name" id="ObjectLiteralNotationExample"><span class="type-signature"></span>ObjectLiteralNotationExample<span class="signature">(firstName, lastName, getfullName)</span><span class="type-signature"></span></h4>
-
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        Object literal notation Example That Creates a Person.
-    </div>
-    
-
-    
-
-    
-
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>firstName</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">The first name of the person.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>lastName</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">The last name of the person.</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>getfullName</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">method</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">Returns full name of a person.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-    
-
-    
-<dl class="details">
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="ObjectLiteralNotation.js.html">ObjectLiteralNotation.js</a>, <a href="ObjectLiteralNotation.js.html#line30">line 30</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <h5>Example</h5>
-        
-    <pre class="prettyprint"><code>// Object literal notation Example That Creates a Person
-var ObjectLiteralNotationExample = function (firstName, lastName) {
-  var person = {};
-  Object.defineProperties(person, {
-      "firstName":{
-          value:firstName
-      },
-      "lastName": {
-          value:firstName
-      },
-      getfullName: {
-          get:function() {
-              return firstName +" "+lastName;
-          }
-      }
-  });
-  return person;
-};</code></pre>
-
-    
-</dd>
-
-        </dl>
-    
-
-    
-
-    
-</article>
-
-</section>
-
-
-
-
-</div>
-
-<div class="nav-wrapper">
-    <nav>
-        <h2><a href="index.html">Index</a></h2><h3>Global</h3><ul><li><a href="global.html#CommentingCode">CommentingCode</a></li><li><a href="global.html#DirectoryStructure">DirectoryStructure</a></li><li><a href="global.html#NamingConventions">NamingConventions</a></li><li><a href="global.html#ObjectCachingAndChaining">ObjectCachingAndChaining</a></li><li><a href="global.html#ObjectLiteralNotationExample">ObjectLiteralNotationExample</a></li><li><a href="global.html#SassCompassSetUp">SassCompassSetUp</a></li><li><a href="global.html#SemanticMarkUp">SemanticMarkUp</a></li><li><a href="global.html#StyleSheetAuthoringCommenting">StyleSheetAuthoringCommenting</a></li><li><a href="global.html#StyleSheetAuthoringKeepItSassy">StyleSheetAuthoringKeepItSassy</a></li><li><a href="global.html#StyleSheetAuthoringNamingConventions">StyleSheetAuthoringNamingConventions</a></li><li><a href="global.html#Variables">Variables</a></li></ul>
-    </nav>
-</div>
-
-<br clear="both">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-alpha9</a> on Mon Jul 07 2014 15:59:56 GMT-0700 (PDT)
-</footer>
-
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
-</body>
-</html>
