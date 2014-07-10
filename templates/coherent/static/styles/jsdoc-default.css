@@ -136,17 +136,18 @@ footer {
 
 h1
 {
-  font-size: 440%;
+  font-size: 3em;
   font-weight: bold;
   margin: 60px 0 0 20px;
   color: #1E90FF;
+  line-height: 1.25em;
 }
 
 h2
 {
   font-size: 170%;
   font-weight: bold;
-  letter-spacing: -0.01em;
+  
   margin: 6px 0 3px 0;
 }
 
@@ -154,7 +155,7 @@ h3, nav ul li span
 {
   font-size: 150%;
   font-weight: bold;
-  letter-spacing: -0.01em;
+  
   margin:20px 0 0 0;
   display: block;
 }
@@ -167,7 +168,7 @@ h4
 {
   font-size: 200%;
   font-weight: bold;
-  letter-spacing: -0.01em;
+  
   margin-top: 16px;
   margin: 60px 0 30px 0;
   color: #1E90FF;
@@ -178,14 +179,13 @@ h5, .container-overview .subsection-title
 {
   font-size: 150%;
   font-weight: bold;
-  letter-spacing: -0.01em;
-  margin: 50px 0 0px 0px;
+  margin: 50px 0 10px 0px;
 }
 
 h6
 {
   font-size: 100%;
-  letter-spacing: -0.01em;
+  
   margin: 6px 0 3px 0;
   font-style: italic;
 }
@@ -229,7 +229,6 @@ h6
 
 .description {
   margin-bottom: 1em;
-  margin-left: -16px;
   margin-top: 1em;
 }
 .description li { margin: 15px; }
